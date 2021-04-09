@@ -4,7 +4,7 @@ LC_ALL=C
 local_branch="$(git rev-parse --abbrev-ref HEAD)"
 RED='\033[0;1;31m'
 
-valid_branch_regex="^(BFOAC|ACMDM|BFOPROD|EAFS|EASALES|EASP|EACCC|CTIGLOBAL|CCCCHAT|CCCCASE|CCCINT|CCCOCM|GENESYS|BFOFS|SAPFS|WM|ORCLFS|BFOI2P|BFOKNO|bFOS|BFOMOBI|BFOMA|BFOPRM|IC|cIAM|BFOTEC)\-[0-9]+$"
+valid_branch_regex="^(ABC|DEF|GHI|KLM)\-[0-9]+$"
 
 error="Incorrect Branch name-> $local_branch\n 
 git branch names must adhere to this format:\n $valid_branch_regex \n
