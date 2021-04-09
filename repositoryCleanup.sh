@@ -6,7 +6,7 @@
 #$1 $2 $3 refers to read the credentials and Repositories from the commandline arguments
 
 
-project=bFO-dev
+project=freelance6066
 cd ~
 chmod 777 ~
 mkdir $project
