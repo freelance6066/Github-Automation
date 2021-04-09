@@ -17,7 +17,7 @@ read -r branch
 echo -e "Enter json file with full path(for ex, /Documents/PersonalRepo/branchCommitse.json):"
 read -r file
 
-project=bFO-dev
+project=freelance6066
 currentYear=$(date +'%Y')
 underscore=_
 REPOS="$(jq ".repositories[].repoName" branchCommitseUAT.json | cut -d'"' -f 2)"
